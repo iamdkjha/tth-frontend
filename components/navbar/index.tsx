@@ -49,7 +49,7 @@ const Navbar = () => {
                         <Link
                             href=''
                         >
-                            <TiSocialLinkedin size={20}/>
+                            <TiSocialLinkedin size={22}/>
                         </Link>
                     </div>
                 </Container>
