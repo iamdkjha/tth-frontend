@@ -282,3 +282,19 @@ html {
     transform: scale(1);
   }
 }
+
+
+
+/* custom scrollbar */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+/* 
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#6366F1, #8B5CF6, #EC4899);
+} */
