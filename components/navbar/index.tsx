@@ -11,10 +11,10 @@ import { RiTwitterXFill } from 'react-icons/ri';
 
 const Navbar = () => {
     return (
-        <div className='w-full fixed top-0 z-10'>
+        <div className='w-full fixed top-0 z-40'>
             <Section className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 py-1 text-white text-sm font-medium hidden md:flex'>
                 <Container className='flex justify-between pr-[2px]'>
-                    <div className='flex gap-5'>
+                    <div className='flex gap-10'>
                         <Link 
                             href=''
                             className='flex items-center gap-1'

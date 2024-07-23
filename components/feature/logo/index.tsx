@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link 
       href='/'
-      className='font-bold text-2xl'
+      className='logo-font font-bold text-2xl'
     >
       Travel Trail Holidays
     </Link>

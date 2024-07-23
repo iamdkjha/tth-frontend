@@ -82,6 +82,14 @@ html {
   animation: the-beginning-body 10s forwards;
 }
 
+.logo-font {
+  font-size: clamp(1.125rem, 0.9621rem + 1.1335vw, 1.6875rem);
+}
+
+.hero-title {
+  font-size: clamp(2.25rem, 0.2728rem + 13.7546vw, 8.125rem);
+}
+
 #header-center-image {
   animation: slow-spin 35s linear infinite;
   opacity: 0.5;

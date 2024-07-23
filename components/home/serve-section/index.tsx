@@ -12,12 +12,12 @@ const HomeServeSection = () => {
                         <h1 className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text w-fit font-bold text-3xl'>
                             WHAT WE SERVE
                         </h1>
-                        <div className='ml-20 w-fit text-end text-7xl leading-snug'>
+                        <div className='ml-20 w-fit text-end text-[80px] leading-snug font-extrabold'>
                             <h1>
                                 TOP VALUES
                             </h1>
                             <h1>
-                                FOR YOU!
+                                FOR YOU !
                             </h1>
                         </div>
                     </div>
