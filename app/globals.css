@@ -87,7 +87,7 @@ html {
 }
 
 .hero-title {
-  font-size: clamp(2.25rem, 0.2728rem + 13.7546vw, 8.125rem);
+  font-size: clamp(0.73125rem, 0.0746rem + 4.5682vw, 4.5rem);
 }
 
 #header-center-image {

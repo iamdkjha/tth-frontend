@@ -3,6 +3,7 @@
 import Avatar from '@/components/feature/avatar';
 import React, { useCallback, useEffect, useState } from 'react';
 import { HiMenuAlt3 } from "react-icons/hi";
+import LargeDeviceMenu from './large-device';
 // import LargeDeviceMenu from './large-device';
 // import SmallDeviceMenu from './small-device';
 
@@ -56,15 +57,15 @@ const Menu: React.FC<MenuProps> = ({  }) => {
         <div className='md:relative'>
             <div
                 onClick={toggleMenu}
-                className='shadow-all-side dark:shadow-gray-800 p-2 flex items-center justify-between gap-2 cursor-pointer rounded-3xl'
+                className='shadow-all-side shadow-gray-200 dark:shadow-gray-700 p-2 flex items-center justify-between gap-2 cursor-pointer rounded-3xl'
             >
                 <HiMenuAlt3 size={20} />
                 <Avatar src={''} className='hidden md:flex select-none'/>
             </div>
             {isOpen && (
                 <>
-                    {/* <LargeDeviceMenu currentUser={currentUser}/>
-                    <SmallDeviceMenu currentUser={currentUser} onClick={handleClose}/> */}
+                    <LargeDeviceMenu/>
+                    {/* <SmallDeviceMenu currentUser={currentUser} onClick={handleClose}/> */}
                 </>
             )}
         </div>

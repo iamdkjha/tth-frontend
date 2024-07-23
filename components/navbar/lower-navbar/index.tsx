@@ -14,7 +14,7 @@ const LowerNavbar = () => {
                 <div className='hidden md:flex gap-5 items-center'>
                     <Navlinks />
                     <Menu />
-                    <ThemeSwitcher />
+                    {/* <ThemeSwitcher /> */}
                 </div>
             </Container>
         </Section>
