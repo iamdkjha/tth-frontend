@@ -90,6 +90,10 @@ html {
   font-size: clamp(0.73125rem, 0.0746rem + 4.5682vw, 4.5rem);
 }
 
+.hero-subtitle {
+  font-size: clamp(0.75rem, 0.7064rem + 0.303vw, 1rem);
+}
+
 #header-center-image {
   animation: slow-spin 35s linear infinite;
   opacity: 0.5;

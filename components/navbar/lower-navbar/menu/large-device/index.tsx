@@ -56,7 +56,7 @@ const LargeDeviceMenu: React.FC<LargeDeviceMenuProps> = ({  }) => {
                         <MdDarkMode size={20} />
                     </div>
                     <h1 className='font-medium'>
-                        Dark Mode
+                        Dark Theme
                     </h1>
                 </div>
                 <ThemeSwitcher />
